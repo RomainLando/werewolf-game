@@ -197,6 +197,8 @@ p > img {
 
 }
 
+.row:before, .row:after {display: none !important;}
+
 nav {
 	color: white;
 }
