@@ -1,0 +1,221 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(media/main2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+	color: white;
+	font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+	margin-bottom: 60px;
+	margin-right: auto;
+    margin-left: auto;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: calc(25px + (90 - 25) * ((100vw - 300px) / (1600 - 300)));
+	margin-bottom: 40px;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 100%;
+  	height: auto;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.logo {
+	width: 100%;
+	height: 100%;
+	background: url(media/cover.png) no-repeat center center fixed; 
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+}
+
+.daycenter {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+}
+
+.nightcenter {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+.parallax {
+	height: 100%;
+	/*background-image: url("media/zoom.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
+
+
+.first {
+	position: sticky;
+	padding: 50px 20px;
+	background-image: linear-gradient(#0c171c, #20302f) ;
+	color: white;
+	text-align: center;
+}
+
+.row div {
+	margin-bottom: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+  height: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #c9934d;
+}
+
+.imaged:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+	color: white;
+	font-size: 1.9vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.half {
+	height: 40%;
+	background-image: url("media/between.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.second {
+	position: sticky;
+	padding: 50px 20px;
+	background-image: linear-gradient(#20312f, #00362F);
+	color: white;
+	text-align: center;
+
+}
+
+#container {
+	width: 100%;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+
+.second p, .second h1 {
+	text-align: left;
+}
+
+
+.item > p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+p > img {
+	float: left;
+
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+}
+
+.carousel-caption h1 {
+	font-size: 25px;
+	text-align: center;
+}
+
+.carousel-caption p {
+	font-size: 14px;
+	text-align: center;
+}
+
+.third {
+	height: 80%;
+	background-image: url("media/zoom.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.centro {
+	text-align: center;
+	margin: 0;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+/*	box-shadow: 5px 10px;
+	width: 33%;
+	background-color: #c9934d;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 25px;
+	padding: 20px 20px;
+	color: black;*/
+
+}
+
+nav {
+	color: white;
+}
+
+.btn {
+	font-weight: 1px;
+	font-size: 5vw;
+	border-radius: 25px;
+	border-color: #c9934d;
+	background-color: #c9934d;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:hover {
+	background-color: #b18040;
+	border-color: #b18040;
+}
+
+.btn-xl {
+	padding: 2rem 3rem;
+}
+
